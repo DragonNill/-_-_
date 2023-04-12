@@ -171,5 +171,27 @@ namespace ООО__Посуда_.Windows
         {
             FillListView();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (currentUser!=null && currentUser.UserRole.RoleId == 1)
+            {
+                AddButton.Visibility = Visibility.Visible;
+                DeleteButton.Visibility = Visibility.Visible;
+                UpdateButton.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void UpdateButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(ProductsListView.SelectedItem != null)
+            {
+                Product product = ((ProductControl)ProductsListView.SelectedItem).currentProduct;
+
+
+                Window nextWindow = new AddOrUpdateProduct(product);
+                nextWindow.Show();
+            }
+        }
     }
 }

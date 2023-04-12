@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ООО__Посуда_.Windows"
         mc:Ignorable="d"
-        Title="Список товаров" Height="450" Width="800" MinHeight="400" MinWidth="750" MaxHeight="500" MaxWidth="900" SizeChanged="Window_SizeChanged">
+        Title="Список товаров" Height="450" Width="800" MinHeight="400" MinWidth="750" MaxHeight="500" MaxWidth="900" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -44,7 +44,7 @@
             </Grid.ColumnDefinitions>
             <Button x:Name="DeleteButton" Visibility="Hidden">Удалить</Button>
             <Button x:Name="AddButton" Grid.Column="1" Visibility="Hidden">Добавить</Button>
-            <Button x:Name="UpdateButton" Grid.Column="2" Visibility="Hidden">Редактировать</Button>
+            <Button x:Name="UpdateButton" Grid.Column="2" Visibility="Hidden" Click="UpdateButton_Click">Редактировать</Button>
             <Button x:Name="BackButton" Grid.Column="3" Click="BackButton_Click">Назад</Button>
         </Grid>
     </Grid>

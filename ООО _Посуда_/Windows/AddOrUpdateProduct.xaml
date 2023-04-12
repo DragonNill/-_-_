@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ООО__Посуда_.Windows"
         mc:Ignorable="d"
-        Title="Добавление" Height="650" Width="550" MinHeight="500" MinWidth="550" MaxHeight="700" MaxWidth="600">
+        Title="Добавление" Height="650" Width="550" MinHeight="500" MinWidth="550" MaxHeight="700" MaxWidth="600" Loaded="Window_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -55,6 +55,6 @@
         <TextBox Grid.Row="10" Grid.Column="1" x:Name="DiscountAmountTextBox"></TextBox>
         <TextBox Grid.Row="11" Grid.Column="1" x:Name="DiscountMaxTextBox"></TextBox>
         <TextBox Grid.Row="12" Grid.Column="1" x:Name="CountInStackTextBox"></TextBox>
-        <Button Grid.Row="13" Grid.ColumnSpan="2">Добавить</Button>
+        <Button x:Name="AddOrUpdateButton" Grid.Row="13" Grid.ColumnSpan="2">Добавить</Button>
     </Grid>
 </Window>

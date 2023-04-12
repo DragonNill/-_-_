@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\User\source\repos\ООО _Посуда_\ООО _Посуда_\App.xaml
-31101686693
+4603241602
 1-1606303973
-19618624265
+20-429494064
 210835544164
-UserControls\ProductControl.xaml;Windows\Authorization.xaml;Windows\ListViewProducts.xaml;
+UserControls\ProductControl.xaml;Windows\AddOrUpdateProduct.xaml;Windows\Authorization.xaml;Windows\ListViewProducts.xaml;
 
 False
 

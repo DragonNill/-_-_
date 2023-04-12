@@ -45,3 +45,5 @@ C:\Users\User\source\repos\ООО _Посуда_\ООО _Посуда_\obj\Debug
 C:\Users\User\source\repos\ООО _Посуда_\ООО _Посуда_\obj\Debug\net6.0-windows\Windows\ListViewProducts.baml
 C:\Users\User\source\repos\ООО _Посуда_\ООО _Посуда_\obj\Debug\net6.0-windows\UserControls\ProductControl.g.cs
 C:\Users\User\source\repos\ООО _Посуда_\ООО _Посуда_\obj\Debug\net6.0-windows\UserControls\ProductControl.baml
+C:\Users\User\source\repos\ООО _Посуда_\ООО _Посуда_\obj\Debug\net6.0-windows\Windows\AddOrUpdateProduct.g.cs
+C:\Users\User\source\repos\ООО _Посуда_\ООО _Посуда_\obj\Debug\net6.0-windows\Windows\AddOrUpdateProduct.baml

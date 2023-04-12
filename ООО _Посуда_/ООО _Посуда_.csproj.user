@@ -10,12 +10,18 @@
     <Compile Update="UserControls\ProductControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\AddOrUpdateProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\ListViewProducts.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="UserControls\ProductControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\AddOrUpdateProduct.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\Authorization.xaml">

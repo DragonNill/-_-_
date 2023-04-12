@@ -21,7 +21,7 @@ namespace ООО__Посуда_.UserControls
     /// </summary>
     public partial class ProductControl : UserControl
     {
-        Product currentProduct;
+        public Product currentProduct;
 
         public ProductControl(Product currentProduct)
         {
